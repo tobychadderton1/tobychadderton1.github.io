@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+
+body
+{
+    background: purple;
+
+    font-family: 'Balsamiq Sans';
+    font-size: 17px;
+}
+
+#content
+{
+    background: white;
+    width: 50%;
+
+    border-radius: 15px;
+
+    padding-bottom: 5%;
+}
+
+#header-container
+{
+    display: grid;
+    grid-template-columns: 20%;
+
+    text-align: center;
+
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+#pfp
+{
+    width: 130px;
+    height: 130px;
+    background-image: url("https://avatars.githubusercontent.com/u/26439200?v=4");
+    background-size: cover;
+    border-radius: 15px;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#title
+{
+    grid-column-start: 2;
+    grid-column-end: 2;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#bio
+{
+    grid-column-start: 2;
+    grid-column-end: 2;
+
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#tablinks
+{
+    margin: 10px;
+    font-size: 17px;
+}
+
+.tablink
+{
+    transition-duration: 500ms;
+
+    padding: 15px;
+    margin: 5px;
+
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+
+    text-decoration: none;
+    color: black;
+}
+
+.tablink:hover
+{
+    transition-duration: 500ms;
+
+    border-radius: 15px;
+
+    border-color: white;
+    color: black;
+}
